@@ -1,0 +1,28 @@
+body{background-image: url(../pic/b8a81d1e-ea0c-424e-a425-ed9f44444a07.jpg);
+background-size: cover;}
+p.vert
+{
+    color:green;
+}
+body {border:3px rebeccapurple dotted;}
+body {background-position: center top;}
+body {background-attachment: fixed;}
+body { 
+    height: 50px;
+    width: 50%;
+}
+p.blue {
+    color:blue;
+}
+h1.rouge {
+    color:red;
+}
+h2.loun {
+    color: #222222;
+}
+h2.loun2 {
+    color: blueviolet;
+}
+h3.loun3 {
+    color: #554422;
+}
