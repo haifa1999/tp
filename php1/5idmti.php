@@ -1,4 +1,4 @@
 <?php
-$nom=$_REQUEST['effacer'];
+$nom=$_REQUEST['mot de passe'];
 echo "$nom";
 ?>
