@@ -15,7 +15,7 @@ $i = $_REQUEST['interet'];
 $m = $_REQUEST['mdp'];
 $cm = $_REQUEST['conmdp'];
 $mdpc =pd5($m);
-$req = "INSERT INTO users (id,nom,prenom,telephone,genre,email,datedenaissance,nationalité,interet,motdepasse,confirmationmotdepasse) VALUES(null,'$n','$p','$t','$g','$e','$d','$na','$i','$m','$cm','$mdpc')";
+$req = "INSERT INTO users (nom,prenom,telephone,genre,email,date de naissance,nationalité,interet,mot de passe,confirmation mot de passe) VALUES(null,'$n','$p','$t','$g','$e','$d','$na','$i','$m','$cm','$mdpc')";
 
 $resp = $base->exec($req);
 if ($resp==1){

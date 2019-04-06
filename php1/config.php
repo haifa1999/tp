@@ -6,7 +6,7 @@ $username="root";
 $pass="";
 try{
     
-    $con=new PDO("mysql:host=$server;dbname=$base",$username,$pass);//con:tconnectilna aal base de donne..
+    $con=new PDO("mysql:host=$server;dbname=$base",$username,$pass);
     return $con;
 }catch ( PDOExeption $e){
     
