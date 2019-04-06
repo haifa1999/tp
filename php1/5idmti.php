@@ -7,21 +7,17 @@ echo "$nom";
 <?php
 $nom=$_REQUEST['nom'];
 echo "$nom";
-?>
-<?php
-$nom=$_REQUEST['prenom'];
+
+$prenom=$_REQUEST['prenom'];
 echo "$nom";
-?>
-<?php
-$nom=$_REQUEST['telephone'];
+
+$telephone=$_REQUEST['telephone'];
 echo "$nom";
-?>
-<?php
-$nom=$_REQUEST['email'];
+
+$email=$_REQUEST['email'];
 echo "$nom";
-?>
-<?php
-$nom=$_REQUEST['date de naissance'];
+
+$date de naissance=$_REQUEST['date de naissance'];
 echo "$nom";
 ?>
 
