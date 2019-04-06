@@ -1,23 +1,24 @@
 
 <?php
-$nom=$_REQUEST['description'];
-echo "$nom";
-?>
+$description=$_REQUEST['description'];
+echo "description";
 
-<?php
-$nom=$_REQUEST['nom'];
+nom=$_REQUEST['nom'];
 echo "$nom";
 
 $prenom=$_REQUEST['prenom'];
-echo "$nom";
+echo "$prenom";
 
 $telephone=$_REQUEST['telephone'];
-echo "$nom";
+echo "$telephone";
 
 $email=$_REQUEST['email'];
-echo "$nom";
+echo "$email";
 
-$date de naissance=$_REQUEST['date de naissance'];
-echo "$nom";
+$datedenaissance=$_REQUEST['date de naissance'];
+echo "$datedenaissance";
+$motdepasse=$_REQUEST['mot de passe']
+echo"$motdepasse"
+
 ?>
 
