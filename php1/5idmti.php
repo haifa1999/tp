@@ -3,7 +3,7 @@
 $description=$_REQUEST['description'];
 echo "description";
 
-nom=$_REQUEST['nom'];
+$nom=$_REQUEST['nom'];
 echo "$nom";
 
 $prenom=$_REQUEST['prenom'];
@@ -17,7 +17,7 @@ echo "$email";
 
 $datedenaissance=$_REQUEST['date de naissance'];
 echo "$datedenaissance";
-$motdepasse=$_REQUEST['mot de passe']
+$motdepasse=$_REQUEST['motdepasse']
 echo"$motdepasse"
 
 ?>
