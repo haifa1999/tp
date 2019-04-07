@@ -14,6 +14,8 @@ echo "$email";
 
 $datedenaissance=$_REQUEST['date de naissance'];
 echo "$datedenaissance";
-$password=$_REQUEST['motdepasse'];
-echo"$password";
+$motdepasse=$_REQUEST['mot de passe'];
+echo"$motdepasse";
+$confirmationmotdepasse=$_REQUEST['confirmation mot de passe'];
+echo"$confirmationmotdepasse";
 ?>
